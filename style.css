@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{  
+    font-family: sans-serif;
+}
+
+.bigger-container{
+   
+    max-width: 1000px;
+    width: 100%;
+  
+    margin: 8rem auto;
+}
+.flex-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.card-box-one h1{
+    color: blue;
+}
+ 
+.card-box-one p{
+    line-height: 1.5;
+}
+.form-container{
+ 
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px white;
+}
+.card-box-one{
+ width: 50%;
+}
+.card-box-two{
+ width: 40%;
+}
+.form-box{
+    padding: 8px;
+}
+.form-box input{
+    width: 100%;
+     padding: 9px;
+     outline: none;
+}
+.form-box input:active{
+    border: 0.5px solid blue;
+}
+.form-btn{
+    background-color: blue;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-para{
+    padding: 8px;
+    text-align: center;
+    color: blue;
+    
+    
+}
+hr{
+    border: 1px solid  grey;
+}
+.submit-btn{
+    display: block;
+    outline: none;
+    margin: 10px auto;
+    background-color: green;
+    max-width: 250px;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+     cursor: pointer;
+    border: none;
+}
+/* responsivenss  */
+@media (max-width:480px){
+    .bigger-container{  
+    width: 100%; 
+}
+.flex-container{
+    display: flex;
+    gap: 2rem;
+   flex-direction: column;
+}.card-box-one{
+ width: 100%;
+}
+.card-box-one h1{
+ font-size: 3rem;
+
+}
+.card-box-one p{
+ margin: 3px 6px;
+
+}
+.card-box-two{
+ width: 100%;
+}
+.form-box{
+    padding: 8px;
+    margin: 15px;
+}
+.form-box input{
+    width: 100%;
+     padding: 15px;
+     outline: none;
+     font-size: 16px;
+
+}
+.form-box input:active{
+    border: 0.5px solid blue;
+}
+.form-btn{
+    background-color: blue;
+    display: block;
+    width: 90%;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.form-para{
+     padding: 10px 15px;
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+    
+    
+}
+hr{
+    border: 0.2px solid  rgb(180, 161, 161);
+    max-width: 90%;
+    margin:  0 auto;
+}
+.submit-btn{
+    display: block;
+    outline: none;
+    margin: 10px auto;
+    background-color: green;
+    max-width: 250px;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+     cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
+}
+
